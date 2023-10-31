@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-""" we are extracting the todos of the employees by their IDs"""
 
 import requests
+
+""" we are extracting the todos of the employees by their IDs"""
 
 def get_employee_todo_progress(employee_id):
     base_url = "https://jsonplaceholder.typicode.com"
