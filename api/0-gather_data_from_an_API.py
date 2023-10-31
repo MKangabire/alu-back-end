@@ -5,6 +5,9 @@ import requests
 """ we are extracting the todos of the employees by their IDs"""
 
 def get_employee_todo_progress(employee_id):
+    """ Retrieves and displays the TODO list progress for a given employee ID.
+
+    """
     base_url = "https://jsonplaceholder.typicode.com"
 
     user_response = requests.get(f"{base_url}/users/{employee_id}")
