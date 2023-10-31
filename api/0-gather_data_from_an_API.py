@@ -27,5 +27,12 @@ def get_employee_todo_progress(employee_id):
             print(f"\t{todo['title]}")
 
 if __name__ == "__main__":
+    import json
+    import sys
+     """
+    format the employees id with the url
+    https://jsonplaceholder.typicode.com/users/{employees_id}
+    after getting it from the command line using the sys module
+    """
     employee_id = int(input("Enter your employee ID: "))
     get_employee_todo_progress(employee_id)
